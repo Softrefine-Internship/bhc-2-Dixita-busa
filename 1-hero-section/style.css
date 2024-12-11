@@ -1,1 +1,81 @@
-/* write your css here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top:280px;
+    font-family: Arial;
+    background-color: black;
+}
+.container{
+    height: 800px;
+    width: 1200px;
+    margin: 0 auto;
+    background-image: repeating-linear-gradient(#ecd4ee, #dfd4f3, #fff );; 
+}
+header{
+    height: 80px;
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    justify-items: center;
+    align-items: center;
+}
+nav a, .login, .learn{
+    color: #212529;
+}
+a:link {
+    padding:18px;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+}
+section{
+    width: 630px;
+    margin: 170px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px; 
+}
+span{
+    color:#074130;
+}
+.para{
+    padding-left: 20px;
+    font-size: 14px;
+    margin: 0 auto;
+    border: 1px solid #212529;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    line-height: 0;
+}
+.read{
+    font-size: 12px;
+    color: #4343cc;
+}
+h1{
+    font-size: 52px;
+    text-align: center;
+}
+.dis{
+    font-size: 16px;
+    font-family: system-ui;
+    text-align: center;
+}
+.get{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn{
+    font-size: 15px;
+    font-weight: 300;
+    border: 1px solid none;
+    border-radius: 8px ;
+    color: #fff;
+    background-color: #4343cc;
+}
+
+

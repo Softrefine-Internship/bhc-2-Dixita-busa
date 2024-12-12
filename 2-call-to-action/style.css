@@ -1,1 +1,61 @@
-/* write your css here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 1200px;
+    margin: auto auto;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    display: flex;
+}
+img, .div{
+    height: 600px;
+    width: 600px; 
+}
+.div{
+    justify-content: center;
+    flex-direction: column;
+    padding:150px 50px 0px 120px;
+    line-height: 1.6;
+    color: rgba(183, 184, 185, 0.87);
+    background-color:#010d18f3;
+}
+h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+}
+.award, blockquote, .btn{
+    font-size: 16px;
+}
+.award{
+    margin-bottom: 2px;
+    color: rgb(118, 125, 253);
+}
+blockquote{
+    font-family: Arial,sans-serif;
+}
+h2{
+    padding-bottom: 20px;
+}
+blockquote{
+    padding-bottom: 40px;
+}
+.btn{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 50px;
+    width: 110px;
+    text-align: center;
+    padding: 10px 12px;
+    color: #fff;
+    background-color: #3e3f3f88;
+    text-decoration: none;
+    border-radius: 5px;
+}

@@ -1,1 +1,75 @@
-/* write your css here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    width: 1200px;
+    margin: 20px auto;
+}
+header{
+    line-height: 1.6;
+}
+section{
+    flex-direction: column;
+}
+blockquote{
+    line-height: 2;
+    padding-top: 5px;
+}
+h3{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.mark{
+    font-size: 14px;
+    background-color: #f8f9fa;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: 550;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    font-size: 16px;
+    padding-right: 20px;
+    line-height:1.7;
+}
+.flex_{
+    display: flex;
+    gap: 40px;
+}
+.color_{
+    color:#4c6157c1;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px 1px rgb(0,0,0,0.2);
+    object-fit: cover;
+}
+figure{
+    margin-top: 50px;
+    width: 85%;
+}
+.author{
+    border-top: 1px solid #eef0f3;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.author.flex_{
+    gap: 20px;
+}
+.author img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.author_name{
+    font-weight:700;
+}

@@ -4,15 +4,18 @@
     box-sizing: border-box;
 }
 body{
-    margin-top:280px;
-    font-family: Arial;
-    background-color: black;
+    margin-top: 80px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #fff;
 }
 .container{
     height: 800px;
     width: 1200px;
     margin: 0 auto;
-    background-image: repeating-linear-gradient(#ecd4ee, #dfd4f3, #fff );; 
+    background-image: linear-gradient(rgba(255, 255, 255, 0.363), rgba(255, 255, 255, 0.371)), url(img.jpg);
+    background-size: cover; 
 }
 header{
     height: 80px;
@@ -25,14 +28,15 @@ nav a, .login, .learn{
     color: #212529;
 }
 a:link {
-    padding:18px;
-    font-size: 14px;
+    padding:15px;
+    font-size: 12px;
     font-weight: 600;
     display: inline-block;
     text-decoration: none;
+    padding-left: 5px;
 }
 section{
-    width: 630px;
+    width: 590px;
     margin: 170px auto;
     display: flex;
     flex-direction: column;
@@ -43,7 +47,7 @@ span{
 }
 .para{
     padding-left: 20px;
-    font-size: 14px;
+    font-size: 12px;
     margin: 0 auto;
     border: 1px solid #212529;
     border-radius: 100px;
@@ -58,24 +62,27 @@ span{
 h1{
     font-size: 52px;
     text-align: center;
+    letter-spacing: 0px;
+    line-height: 60px;
 }
 .dis{
-    font-size: 16px;
-    font-family: system-ui;
+    font-size: 15px;
     text-align: center;
+
 }
 .get{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    align-items: center;
 }
 .btn{
-    font-size: 15px;
-    font-weight: 300;
-    border: 1px solid none;
-    border-radius: 8px ;
+    font-size: 14px;
+    font-weight: 600;
+    width: 110px;
+    text-align: center;
+    padding: 10px 12px;
+    border-radius: 8px;
+    margin-right:20px;
     color: #fff;
     background-color: #4343cc;
 }
-
-

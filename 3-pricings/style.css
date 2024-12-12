@@ -1,1 +1,86 @@
-/* write your css here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    background-color: #ffffffaf;
+}
+.container {
+    height: 100vh;
+    width: 1200px;
+    margin: auto;
+}
+.header {
+    width: 550px;
+    margin: 100px auto 0px auto;
+    text-align: center;
+}
+.header :nth-child(1) {
+    color: blue;
+    margin-bottom: 8px;
+}
+.header p:first-of-type {
+    font-weight: 700;
+}
+.header h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.header :last-child {
+    color: rgba(46, 71, 50, 0.801);
+    line-height: 25px;
+}
+.cards, .card{
+    display: flex;
+}
+.cards {
+    margin-top: 5rem;
+    justify-content: center;
+}
+.card {
+    width: 400px;
+    flex-direction: column;
+    padding: 0 30px;
+    gap: 20px;
+}
+.card:nth-child(1),
+.card:nth-child(2) {
+    border-right: 2px solid #F3F4F6;
+}
+.card .head, .detail {
+    font-weight: 600;
+    margin-top: 5px;
+}
+.price {
+    font-size: 40px;
+}
+.price span {
+    font-size: 15px;
+    color: rgba(46, 71, 50, 0.801);
+}
+.info {
+    color: rgba(46, 71, 50, 0.705);
+    margin-bottom: 20px;
+}
+.card button {
+    height: 40px;
+    width: 290px;
+    padding: 12px;
+    border: none;
+    background-color: #4848E0;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.card li {
+    color: rgba(46, 71, 50, 0.705);
+    padding: 8px;
+    list-style: none;
+}
+li i {
+    border-radius: 50%;
+    margin-right: 10px;
+    color: white;
+    background-color: #4848E0;
+}

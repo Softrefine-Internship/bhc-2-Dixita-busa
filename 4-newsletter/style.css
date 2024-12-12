@@ -1,1 +1,51 @@
-/* write your css here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    border-radius: 20px;
+}
+.container {
+    height: 480px;
+    width: 1200px;
+    margin: 250px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: white;
+    background: radial-gradient(ellipse 50% 60% at 50% 100%, rgb(65, 39, 82) 10%, #101826 80%);
+}
+h1 {
+    font-size: 36px;
+}
+.container p {
+    width: 600px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: rgb(163, 159, 159);
+}
+.box {
+    display: flex;
+    gap: 20px;
+}
+input {
+    border: 1px solid rgb(100, 99, 99);
+    border-radius: 5px;
+    padding: 10px;
+    width: 20rem;
+    background-color: #544b596c;
+}
+input[type=email] {
+    font-size: 14px;
+    color: rgb(149, 149, 149);
+}
+button {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+}

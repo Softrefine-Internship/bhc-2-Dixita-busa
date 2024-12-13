@@ -1,1 +1,147 @@
-/* write your css here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    height: 700px;
+    width: 1200px;
+    margin: 20px auto;
+}
+header {
+    margin-top: 100px;
+    margin-left: 580px;
+}
+h1 {
+    text-align: center;
+    letter-spacing: -2px;
+}
+section,
+footer,
+h1 {
+    margin: 0 auto;
+    width: 550px;
+}
+section {
+    margin-top: 30px;
+    padding: 30px;
+    box-shadow: 0 0 2px rgb(0, 0, 0, 0.2);
+}
+img {
+    width: 50px;
+    height: 50px;
+}
+header img {
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #495057;
+}
+input {
+    height: 45px;
+    border-radius: 3px;
+    border: 1px solid #dee2e6;
+}
+.rem,
+.remember,
+.continue {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.remember label {
+    margin: 0;
+}
+.rem {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.continue {
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #757b81;
+}
+hr {
+    width: 100px;
+    border-top: 1px solid #dee2e6;
+}
+strong {
+    font-size: 16px;
+    color: #4c6ef5;
+}
+.btn {
+    color: #f8f9fa;
+    background-color: #4c6ef5;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    margin: 20px 0;
+}
+.logo {
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 20px;
+}
+.logo1,
+.logo2 {
+    background-color: #4dabf7;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+.logo2 {
+    background-color: black;
+    gap: 10px;
+}
+.git, .twit {
+    height: 30px;
+    width: 30px;
+    padding-top: -5px;
+    fill: white;
+}
+.logo span {
+    padding-top: 0;
+    color: #dee2e6;
+}
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #868e96;
+    font-weight: 700;
+    font-size: 18px;
+}
+strong {
+    color: #4c6ef5;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.logo {
+    cursor: pointer;
+    box-shadow: 0px 0px 2px rgb(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 15px;
+}
+

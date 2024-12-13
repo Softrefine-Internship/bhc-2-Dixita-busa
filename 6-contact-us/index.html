@@ -1,79 +1,70 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Khushu</title>
+    <title>Contect-us</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lexend:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet" />
   </head>
-  <div class="container">
-    <div class="head">Contact sales</div>
-    <div class="sub-head">
-      Aute magna irure deserunt veniam aliqua magna enuim voluotate
-    </div>
-    <div class="myform">
-      <div class="name-field">
-        <div class="first-name-field">
-          First name
-          <div>
-            <input type="text" id="fname" name="fname" />
+  <body>
+    <main>
+      <div class="contact">
+        <div class="grad1"></div>
+        <div class="grad2"></div>
+        <header class="head">
+          <h3>Contact sales</h3>
+          <p>
+            Aute magna irure deserunt veniam aliqua magna enim voluptate.
+          </p>
+        </header>
+        <form>
+          <div class="name">
+            <div class="fname">
+              <label>First name</label>
+              <input type="text" />
+            </div>
+            <div class="lname">
+              <label>Last name</label>
+              <input type="text" />
+            </div>
           </div>
-        </div>
-        <div class="Last-name-field">
-          Last name
-          <div>
-            <input type="text" id="fname" name="fname" />
+          <div class="field">
+            <label>Company</label>
+            <input type="text" />
           </div>
-        </div>
+          <div class="field">
+            <label>Email</label>
+            <input type="email" />
+          </div>
+          <div class="field">
+            <label>Phone number</label>
+            <div class="phone">
+              <select class="code">
+                <option value="+1">US</option>
+                <option value="+44">UK</option>
+                <option value="+91">India</option>
+                <option value="+61">Australia</option>
+                <option value="+81">Japan</option>
+              </select>
+              <input class="phone" />
+            </div>
+          </div>
+          <div class="field">
+            <label>Message</label>
+            <textarea class="message"></textarea>
+          </div>
+          <div class="notification">
+            <input type="checkbox" class="toggle" id="check" />
+            <label for="check" class="policy">
+              By selecting this, you agree to out <a> privacy policy.</a>
+            </label>
+          </div>
+          <button class="lets-talk">Let's talk</button>
+        </form>
       </div>
-      <div class="company-field">
-        Company
-        <div>
-          <input type="text" id="fname" name="fname" />
-        </div>
-      </div>
-      <div class="Last-name-field">
-        Email
-        <div>
-          <input type="text" id="fname" name="fname" />
-        </div>
-      </div>
-      <div class="Last-name-field">
-        Phone number
-        <select name="country-code">
-          <option value="us">US</option>
-          <option value="india">India</option>
-      </select>
-        <div>
-          <input type="text" id="fname" name="fname" />
-        </div>
-      </div>
-      <div class="Last-name-field">
-        Message
-        <div>
-          <textarea name="" id=""></textarea>
-        </div>
-      </div>
-      <div class="toggle-section">
-        <svg
-          width="24"
-          height="24"
-          xmlns="http://www.w3.org/2000/svg"
-          fill-rule="evenodd"
-          clip-rule="evenodd"
-        >
-          <path
-            d="M18 18h-12c-3.311 0-6-2.689-6-6s2.689-6 6-6h12.039c3.293.021 5.961 2.701 5.961 6 0 3.311-2.688 6-6 6zm-12-10c2.208 0 4 1.792 4 4s-1.792 4-4 4-4-1.792-4-4 1.792-4 4-4z"
-          />
-        </svg>
-        <p>By selecting this, you will agree to our</p>
-        <a href="#" target="_blank"> privacy policy</a>
-      </div>
-      <div class="button">Let's talk</div>
-    </div>
-  </div>
+    </main>
   </body>
 </html>

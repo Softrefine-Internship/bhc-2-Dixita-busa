@@ -7,39 +7,44 @@ body {
     height: 100vh;
     width: 1200px;
     margin: auto auto;
-    font-family: sans-serif;
+    font-family: "Poppins", serif;
+    font-style: normal;
     justify-content: center;
     align-items: center;
 }
 body{
     display: flex;
 }
-img, .div{
+.div{
     height: 600px;
     width: 600px; 
+}
+.image{
+    height: 600px;
+    width: 600px;
+    background-image: linear-gradient(rgba(51, 60, 184, 0.89), rgba(81, 62, 187, 0.8)), url(work.jpg);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
 }
 .div{
     justify-content: center;
     flex-direction: column;
-    padding:150px 50px 0px 120px;
+    padding:150px 120px 0px 150px;
     line-height: 1.6;
     color: rgba(183, 184, 185, 0.87);
     background-color:#010d18f3;
 }
 h2{
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 700;
     color: #fff;
 }
 .award, blockquote, .btn{
-    font-size: 16px;
+    font-size: 12px;
 }
 .award{
     margin-bottom: 2px;
     color: rgb(118, 125, 253);
-}
-blockquote{
-    font-family: Arial,sans-serif;
 }
 h2{
     padding-bottom: 20px;
@@ -48,7 +53,7 @@ blockquote{
     padding-bottom: 40px;
 }
 .btn{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
     margin-top: 50px;
     width: 110px;
@@ -58,4 +63,7 @@ blockquote{
     background-color: #3e3f3f88;
     text-decoration: none;
     border-radius: 5px;
+}
+a.btn:hover {
+    background-color: #62626e
 }

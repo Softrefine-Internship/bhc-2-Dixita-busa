@@ -5,49 +5,52 @@
 }
 body {
     font-family: "Poppins", serif;
-    font-weight: 500;
     font-style: normal;
-    width: 1200px;
+    width: 1100px;
     margin: 20px auto;
 }
 header{
-    line-height: 1.6;
+    line-height: 1.5;
+    margin-bottom: 30px;
 }
 section{
     flex-direction: column;
 }
 blockquote{
-    line-height: 2;
+    line-height: 1.5;
     padding-top: 5px;
 }
 h3{
     margin-top: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 .mark{
+    border-radius: 30%;
     font-size: 14px;
     background-color: #f8f9fa;
-    padding-left: 5px;
-    padding-right: 5px;
-    font-weight: 550;
+    margin-top: -5px;
+    padding: 5px 10px;
+    font-weight: 500;
     justify-content: center;
     align-items: center;
 }
 .text{
-    font-size: 16px;
-    padding-right: 20px;
+    font-size: 12px;
+    padding-right: 80px;
     line-height:1.7;
+    margin-bottom: -10px;
 }
 .flex_{
     display: flex;
-    gap: 40px;
+    gap: 30px;
 }
 .color_{
-    color:#4c6157c1;
+    font-size: 14px;
+    color: #545a5f;
 }
 img{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 10px;
     box-shadow: 0 1px 3px 1px rgb(0,0,0,0.2);
     object-fit: cover;
@@ -58,18 +61,19 @@ figure{
 }
 .author{
     border-top: 1px solid #eef0f3;
-    margin-top: 20px;
     padding-top: 20px;
 }
 .author.flex_{
+    margin-top: 30px;
     gap: 20px;
 }
 .author img{
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     object-fit: cover;
 }
 .author_name{
-    font-weight:700;
+    font-size: 14px;
+    font-weight:500;
 }

@@ -4,10 +4,33 @@
 }
 body {
   font-family: "Poppins", serif;
-  font-weight: 500;
   font-style: normal;
   position: relative;
-  background-color: black;
+  background-color: white;
+}
+.blur-clr {
+  height: 350px;
+  width: 300px;
+  position: absolute;
+  border-radius: 50%;
+}
+.blur-clr--blue {
+  height: 230px;
+  width: 150px;
+  background-color: rgba(123, 22, 238, 0.250);
+  filter: blur(40px);
+  -webkit-filter: blur(80px);
+  top: -10%;
+  left: 38%;
+}
+.blur-clr--pink{
+  height: 250px;
+  width: 200px;
+  background-color: rgba(230, 22, 238, 0.150);
+  filter: blur(40px);
+  -webkit-filter: blur(80px);
+  top: 3%;
+  left: 28%;
 }
 form, .contact, .head, .fname, .lname, .field{
   display: flex;
@@ -22,26 +45,22 @@ form, .head, .code, .phone input{
 .contact {
   height: 900px;
   width: 1200px;
-  margin: 160px auto 0 auto;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.363), rgba(255, 255, 255, 0.371)), url(img.jpg);
-  background-size: cover;
+  margin: 50PX auto 0 auto;
 }
 .head {
-  margin-top: 40px;
   flex-direction: column;
   text-align: center;
 }
 .head h3 {
-  font-size: 36px;
+  font-size: 26px;
 }
-.head p {
-  color: rgba(27, 58, 28, 0.922);
+.head p{
+  margin-bottom: 70px;
 }
-form {
-  color: rgba(0, 0, 0, 0.861);
-  gap: 25px;
+.head p, .policy{
+  color: rgb(69, 66, 73);
 }
-.name {
+form , .name{
   gap: 25px;
 }
 .fname, .lname, .field {
@@ -64,12 +83,12 @@ form {
 .lname input:focus,
 .message:focus,
 .phone input:focus {
-  outline: 1px solid black;
+  background-color: rgba(212, 208, 208, 0.925);
+  outline: 2px solid black;
 }
 .message {
   width:530px;
-  height: 70px;
-  margin-bottom: 15px;
+  height: 100px;
 }
 .policy a {
   color: rgba(72, 72, 224, 255);
@@ -81,28 +100,27 @@ form {
   color: white;
   border-radius: 5px;
   border: none;
-  padding: 15px;
-  margin-top: 30px;
-  font-size: 15px;
+  padding: 10px;
+  margin-top: 15px;
+  font-size: 12px;
   font-weight: 600;
 }
 p{
-  font-weight: lighter;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
   margin-bottom: 90px;
 }
 label {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.819);
 }
 .code {
-  height:30px;
+  height:32px;
   width: 55px;
   border-radius: 4px 0 0 4px;
   cursor: pointer;
   padding-left: 5px;
-  background-color: white;
   border: 1px solid rgba(128, 128, 128, 0.328);
   box-shadow: 0 0 5px rgba(128, 128, 128, 0.006);
   border-right: none;
@@ -114,6 +132,9 @@ label {
   height: 30px;
   align-items: center;
 }
+.code, .phone input, .fname input, .lname input, .field input, .message{
+  background-color: white;
+}
 .phone input {
   width: 480px;
   height: 30px;
@@ -124,6 +145,7 @@ label {
   position: absolute;
 }
 .notification input[type="checkbox"] + .policy {
+  cursor: pointer;
   font-weight: 400;
   position: relative;
   align-items: center;
@@ -132,9 +154,9 @@ label {
   content: " ";
   height: 18px;
   width: 35px;
-  background-color: rgb(201, 197, 197);
+  background-color: rgba(201, 197, 197, 0.514);
   border-radius: 40px;
-  margin-right: 3px;
+  margin-right: 20px;
 }
 .notification input[type="checkbox"] + .policy::after {
   content: " ";
@@ -149,8 +171,11 @@ label {
   left: 18px;
 }
 .notification input[type="checkbox"]:checked + .policy::before {
-  background-color: rgba(72, 72, 224, 255);
+  background-color: rgb(170, 166, 166);
 }
-.policy{
-  color: rgba(27, 58, 28, 0.922)
+button:hover{
+  cursor: pointer;
+  outline: 1px solid white;
+  background-color: rgb(42, 42, 248);
+  color: #FFF;
 }

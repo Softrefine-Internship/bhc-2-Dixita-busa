@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Noto Sans", sans-serif;
-    background-color: #ffffffaf;
+    font-family: "Poppins", serif;
+    font-style: normal;
 }
 .container {
     height: 100vh;
@@ -11,24 +11,29 @@
     margin: auto;
 }
 .header {
-    width: 550px;
-    margin: 100px auto 0px auto;
+    width: 590px;
+    margin: 35px auto;
     text-align: center;
 }
 .header :nth-child(1) {
     color: blue;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
 }
 .header p:first-of-type {
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 500;
 }
 .header h1 {
-    font-size: 35px;
-    margin-bottom: 15px;
+    font-size: 36px;
+    font-weight:bolder;
+    margin-bottom: 10px;
 }
 .header :last-child {
-    color: rgba(46, 71, 50, 0.801);
+    color: #545a5f;
     line-height: 25px;
+}
+.para, .head{
+    font-size: 14px;
 }
 .cards, .card{
     display: flex;
@@ -38,7 +43,7 @@
     justify-content: center;
 }
 .card {
-    width: 400px;
+    width: 340px;
     flex-direction: column;
     padding: 0 30px;
     gap: 20px;
@@ -52,31 +57,43 @@
     margin-top: 5px;
 }
 .price {
-    font-size: 40px;
+    font-size: 30px;
+    margin-bottom: -15px;
 }
 .price span {
-    font-size: 15px;
-    color: rgba(46, 71, 50, 0.801);
+    font-size: 10px;
+    color: #545a5f;
 }
 .info {
-    color: rgba(46, 71, 50, 0.705);
-    margin-bottom: 20px;
+    font-size: 12px;
+    color: #545a5f;
+    margin-bottom: 15px;
 }
 .card button {
-    height: 40px;
-    width: 290px;
-    padding: 12px;
+    height: 30px;
+    width: 250px;
     border: none;
     background-color: #4848E0;
     border-radius: 5px;
     color: white;
-    margin-bottom: 15px;
-    font-size: 15px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.card button:hover {
+    cursor: pointer;
+    background-color: #3939ba;
 }
 .card li {
-    color: rgba(46, 71, 50, 0.705);
-    padding: 8px;
+    color: #545a5f;
+    padding: 5px;
     list-style: none;
+}
+.detail{
+    font-size: 12px;
+    font-weight: 600;
+}
+li{
+    font-size: 12px;
 }
 li i {
     border-radius: 50%;
@@ -84,3 +101,25 @@ li i {
     color: white;
     background-color: #4848E0;
 }
+.feature-list {
+    font-size: 14px;
+    color: #343a40; 
+}
+
+.feature-li-item {
+    font-size: 12px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    align-self: center;
+    gap: 10px;
+    line-height: 2.5;
+}
+
+.tick-icon {
+    height: 24px;
+    width: 24px;
+    fill: #3b5bdb;
+    stroke: white;
+}
+

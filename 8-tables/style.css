@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", serif;
-    font-weight: 500;
     font-style: normal;
 }
 body {
@@ -22,30 +21,38 @@ body {
     margin-bottom: 20px;
 }
 .header p {
-    color: rgb(108, 114, 108);
-    font-size: 15px;
+    color: rgba(98, 102, 98, 0.884);
+    font-size: 12px;
 }
 .user {
     background-color: #4343cc;
     color: white;
-    padding: 10px 20px;
+    padding: 7px 13px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 12px;
 }
 table {
-    margin-top: 30px;
-    width: 130%;
+    margin-top: 20px;
+    width: 100%;
     border-collapse: collapse;
 }
 table th, table td {
+    font-size: 12px;
     text-align: left;
-    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border-bottom: 1px solid #dddddd;
 }
+thead{
+    font-weight: bolder;
+}
+tbody th{
+    font-weight: 420;
+}
 table td {
-    color: rgba(108, 114, 108, 0.796);
+    color: rgba(98, 102, 98, 0.884);
 }
 .link {
     text-align: end;

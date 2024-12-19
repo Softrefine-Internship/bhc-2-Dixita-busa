@@ -5,9 +5,13 @@
     font-family: "Poppins", serif;
     border-radius: 20px;
 }
-.container {
-    height: 480px;
+body {
     width: 1200px;
+    margin: 0 auto;
+}
+.container {
+    height: 430px;
+    width: 1150px;
     margin: 250px auto;
     display: flex;
     flex-direction: column;
@@ -18,34 +22,49 @@
     background: radial-gradient(ellipse 50% 60% at 50% 100%, rgb(65, 39, 82) 10%, #101826 80%);
 }
 h1 {
-    font-size: 36px;
+    font-size: 32px;
 }
 .container p {
-    width: 600px;
-    font-size: 18px;
+    width:590px;
+    font-size: 17px;
     text-align: center;
     line-height: 30px;
     margin-bottom: 30px;
-    color: rgb(163, 159, 159);
+    color: #d8dce0e8;
 }
 .box {
     display: flex;
     gap: 20px;
 }
 input {
-    border: 1px solid rgb(100, 99, 99);
+    font-family: sans-serif;
+    border: 1px solid rgba(118, 110, 128, 0.267);
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px 10px;
     width: 20rem;
-    background-color: #544b596c;
+    background-color: rgba(52, 43, 63, 0.418);
 }
+input:focus {
+    outline: 1px solid white;
+    background-color: rgba(128, 128, 128, 0.473);
+  }
 input[type=email] {
     font-size: 14px;
-    color: rgb(149, 149, 149);
+    color: #a5b5c5;
 }
-button {
-    font-weight: 600;
+.btn {
     font-size: 14px;
-    padding: 10px;
-    border-radius: 5px;
+    font-weight: 500;
+    align-self: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    padding: 8px 15px;
+    border-radius: 6px;
+}
+.btn:hover{
+    cursor: pointer;
+    outline: 2px solid white;
+    background-color: rgb(126, 120, 133);
+    color: #FFF;
 }

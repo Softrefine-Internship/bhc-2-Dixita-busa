@@ -4,86 +4,146 @@
     box-sizing: border-box;
 }
 body{
-    margin-top: 80px;
     font-family: "Poppins", serif;
-    font-weight: 500;
     font-style: normal;
-    background-color: #fff;
+    background-color: black;
 }
 .container{
-    height: 800px;
+    height: 100vb;
     width: 1200px;
     margin: 0 auto;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.363), rgba(255, 255, 255, 0.371)), url(img.jpg);
-    background-size: cover; 
+    background-color: white;
+}
+.blur-clr {
+    height: 350px;
+    width: 300px;
+    position: absolute;
+    border-radius: 50%;
+}
+.blur-clr--blue {
+    height: 200px;
+    background-color: rgba(123, 22, 238, 0.158);
+    filter: blur(40px);
+    -webkit-filter: blur(60px);
+    top: -2%;
+    right: 45%;
+}
+.blur-clr--pink{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(230, 22, 238, 0.137);
+    filter: blur(40px);
+    -webkit-filter: blur(60px);
+    top: 10%;
+    left: 28%;
+}
+.blur-clr--pink-down {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(238, 22, 220, 0.103);
+    filter: blur(120px);
+    -webkit-filter: blur(60px);
+    right: 40%;
+    bottom: -10%;
+}
+.blur-clr--blue-down {
+    height: 250px;
+    width: 230px;
+    background-color: rgba(123, 22, 238, 0.158);
+    filter: blur(500px);
+    -webkit-filter: blur(40px);
+    right: 15%;
+    bottom: -10%;
+}
+.blur-clr--dark-pink {
+    height: 200px;
+    background-color: rgba(255, 7, 172, 0.11);
+    filter: blur(40px);
+    -webkit-filter: blur(100px);
+    top: -1%;
+    left: 15%;
 }
 header{
     height: 80px;
     display: grid;
-    grid-template-columns: 100px 1fr 100px;
+    grid-template-columns: 100px 1fr 150px;
     justify-items: center;
     align-items: center;
 }
 nav a, .login, .learn{
-    color: #212529;
+    color: black;
 }
 a:link {
-    padding:15px;
-    font-size: 12px;
+    padding:5px;
+    font-size: 10px;
     font-weight: 600;
     display: inline-block;
     text-decoration: none;
     padding-left: 5px;
 }
 section{
-    width: 590px;
-    margin: 170px auto;
+    width: 550px;
+    margin: 130px auto;
     display: flex;
     flex-direction: column;
     gap: 25px; 
 }
 span{
-    color:#074130;
+    color:#434d53;
     font-weight: lighter;
 }
 .para{
-    padding-left: 20px;
-    font-size: 12px;
+    padding-left: 10px;
+    font-size: 10px;
     margin: 0 auto;
-    border: 1px solid #212529;
+    border: 1px solid #f1f3f5;
     border-radius: 100px;
     display: flex;
     align-items: center;
     line-height: 0;
 }
 .read{
-    font-size: 12px;
+    font-size: 5px;
+    font-weight: lighter;
     color: #4343cc;
 }
 h1{
-    font-size: 52px;
+    font-size: 44px;
     text-align: center;
     letter-spacing: 0px;
     line-height: 60px;
 }
+.icon {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    margin-right: 8px;
+  }
 .dis{
-    font-size: 15px;
+    font-size: 14px;
     text-align: center;
-
 }
 .get{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.btn{
-    font-size: 14px;
-    font-weight: 600;
-    width: 110px;
-    text-align: center;
-    padding: 10px 12px;
-    border-radius: 8px;
-    margin-right:20px;
-    color: #fff;
-    background-color: #4343cc;
+.btn {
+    font-size: 10px;
+    align-self: center;
+    justify-content: center;
+    background-color: #4848e0;
+    color: #FFF;
+    padding: 8px 16px;
+    border-radius: 6px;
+}
+.learn{
+    font-size: 10px;
+    margin-left: 25px;
+    color: black;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #1c1ce1;
+    color: #FFF;
 }
